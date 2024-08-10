@@ -1,0 +1,25 @@
+a {
+    color: rgb(166, 230, 124);
+    text-decoration: none;
+}
+a:visited{
+    color: black;
+}
+a:hover {
+    text-decoration: underline;
+    color: green;
+}
+a:active{
+    color: blue;
+}
+a::after{
+    content: '[link]';
+    text-decoration: none;
+    color: aquamarine;
+}
+.especial::before {
+    content: 'pode acessar / ';
+}
+.especial::after{
+    content: ' / acesse de novo!';
+}

@@ -1,0 +1,57 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgb(148, 148, 247);
+}
+header {
+    background-color: rgb(108, 108, 182);
+    align-content: center;
+    color: rgb(4, 12, 92);
+    padding: 10px;
+    margin: 10px;
+    border-radius: 20px;
+    box-shadow: 10px 20px 30px black;   /*dica, use o inspecionar do navegador clicando nos tres pontos na box shadow*/
+}
+main {
+    background-color:rgb(113, 113, 190) ;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 30px;
+    box-shadow: 10px 20px 30px black;
+
+}
+.centralizado{
+    text-align: center;
+    color: rgb(26, 5, 100);
+}
+.par1{
+    text-align: justify;
+}
+
+.par2 {
+    text-align: end;
+    color: black;
+    font-weight: bold;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-bottom: 20px;
+    align-content: center;
+    margin-top: 20px;
+}
+
+nav{
+    background-color: rgb(39, 41, 139);
+    padding: 5px;
+}
+nav > a {
+    color: white;
+    text-decoration: none;
+    margin-right: 25px;
+
+}
+#rato{
+    text-align: center;
+}

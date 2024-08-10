@@ -1,0 +1,15 @@
+@font-face {
+    font-family: 'test' ;
+    src: url('CampanaScript_PERSONAL_USE_ONLY.otf') format ('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+p {
+    font-family: 'test'; 
+}
+/* tipos de formatos
+opetype otf
+truetype ttf
+emvedded-opentype
+truetype-att
+svg*/

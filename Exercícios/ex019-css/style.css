@@ -1,0 +1,14 @@
+body {
+    background-color: rgb(118, 243, 243);
+}
+h1{
+    color: rgb(21, 126, 126)
+}
+h2 {
+    color: rgb(13, 80, 80);
+}
+h1#principal {
+    text-align: center;
+    background-color:rgba(88, 180, 180, 0.637) ;
+    color: rgb(99, 99, 248);
+}

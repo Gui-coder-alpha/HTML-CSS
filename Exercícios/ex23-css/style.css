@@ -1,0 +1,20 @@
+h1 {
+    width: 5em;
+    height: 5em;
+    align-content: center;
+    background-color: aqua;
+
+    border: 10px dashed blue;
+
+    padding: 10px auto 10px auto;     /* seugue como relógio cima, direita, baixo e esquerda,  também pode colcocar apenas 1, para denominar todos como equivalentes como somente 10px, e se colocar dois o de cima e o de baixo vão ter os mesmo valores, também ocorre com a esquerda direita como 10px 20 px*/
+
+    margin: auto;
+
+    outline: 5px solid black;
+}
+a {
+    border-style: groove;
+    border-color: aqua;
+    border-width: 30px;
+    display: inline;
+}

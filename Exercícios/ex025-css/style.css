@@ -1,0 +1,19 @@
+:root {
+    --cor0: rgb(235, 77, 77);
+    --cor1: green; /* Use isto para tornar variável facilita em colocar cores, fontes entre outros*/
+}
+h1{
+    color: var(--cor0);
+}
+p{
+    color: var(--cor1);
+}
+main {
+    background-color: aqua;
+    margin: auto;
+    min-width: 320px;
+    max-width: 1600px;
+}
+img {
+    width: 100%;  /*responsividade*/
+}

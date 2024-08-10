@@ -1,0 +1,16 @@
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3em;
+    font-weight: bolder;
+    font-style: normal;
+    
+}
+p {
+    font: 2em sans-serif
+}  /*Estilo shorthand bem curto segue a sequencia
+font-style > font-weight > font-size > font-family
+nem sempre vai ter o shorthand, cuidado.*/
+h2 {
+    font: normal 3em sans-serif
+}
