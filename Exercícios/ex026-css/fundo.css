@@ -1,0 +1,14 @@
+body {
+    background-color: black;
+    background-image: url(carro\ demonstração.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 130%;
+}
+main {
+    background-color: white;
+    width: 300px;
+    padding: 20px;
+    margin: auto;
+
+}

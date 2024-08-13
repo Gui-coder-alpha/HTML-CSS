@@ -1,0 +1,37 @@
+.quadrado {
+    border: 1px solid black;
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+    justify-content: space-evenly;
+}
+
+#q1 {
+    background-color: aqua;
+}
+#q2 {
+    background-image: linear-gradient(to top, blue, black, red);
+}
+#q3 {
+    background-image: url(carro\ demonstração.jpg);
+}
+#q4 {
+    background-image: url(carro\ demonstração.jpg);
+    background-position: center center;
+}
+#q5 {
+    background-image: url(carro\ demonstração.jpg);
+    background-position: right center;
+}
+#q6 {
+    background-image: url(carro\ demonstração.jpg);
+    background-position: left center;
+}
+#q7 {
+    background-image: url(carro\ demonstração.jpg);
+    background-position: top center;
+}
+#q8 {
+    background-image: url(carro\ demonstração.jpg);
+    background-position: right right;
+}
