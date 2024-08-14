@@ -1,14 +1,21 @@
 body {
-    background-color: black;
-    background-image: url(carro\ demonstração.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 130%;
+    background: black url(carro\ demonstração.jpg) center center no-repeat fixed;
+    background-size: cover;
 }
 main {
-    background-color: white;
+    /*background-color: white;
     width: 300px;
     padding: 20px;
     margin: auto;
+
+    para simplificar basta usar shorthand, usando o seguinte, 
+    color > image > position > repeat > size > attachment
+    */
+}
+main {
+    display: block;
+    justify-content: center;
+    border-color: black;
+    border-style: dashed;
 
 }
