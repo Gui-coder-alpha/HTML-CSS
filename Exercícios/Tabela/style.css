@@ -1,0 +1,23 @@
+
+
+table {
+    width: 300px;
+    border-collapse: collapse;
+    height: 300px;
+}
+
+td {
+    border: 2px solid black;
+    padding: 8px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.class1 {
+    background-color: gray;
+    flex-direction: ;
+    justify-content:;
+    align-items: ;
+    flex-wrap: ;
+    align-content: ;
+}
