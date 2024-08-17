@@ -1,0 +1,32 @@
+table {
+    width: 400px;
+    height: 7000px;
+    border-collapse: collapse;
+    position: relative;
+}
+tr, td, th {
+    border: 2px solid black;
+}
+tr {
+    padding: 8px;
+    text-align: center;
+    vertical-align: middle;
+}
+tfoot, thead {
+    background-color: rgb(177, 177, 177);
+    color: black;
+}
+caption {
+    padding-bottom: 7px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: rgb(235, 235, 235);
+}
+tbody > tr:nth-child(odd) {
+    background-color: rgb(233, 231, 231);
+}
+thead > tr > th {
+    position: sticky;
+    top: 0;
+    background-color: gray;
+}
