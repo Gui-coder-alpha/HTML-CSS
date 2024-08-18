@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    background-color: #303B40;;
+    width: auto;
+    height: 13vh;
+    font-size: 40px;
+    align-items: center;
+    color: #485F73;
+}
+
+
+a {
+    text-decoration: none;
+    color: #D5E5F2;
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+    font-size: 20px;
+}
+
+.links1 {
+    padding: 10px ;
+    margin: 20px;
+}
