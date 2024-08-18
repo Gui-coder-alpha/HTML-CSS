@@ -16,3 +16,10 @@ th, td {
 tr {
     text-align: center ;
 }
+.n {
+    background-color: aliceblue;
+}
+div {
+    overflow-x: auto;
+    background-image: url();
+}
