@@ -3,10 +3,43 @@
     padding: 0;
 }
 
-header {
-    display: flex;
-    justify-content: space-around;
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: rgb(156, 156, 156);
+}
+
+nav {
     background-color: #303B40;;
     width: auto;
     height: 15vh;
+    display: flex;
+    justify-content: space-around;
     align-items: center;
+}
+
+.letra1 {
+    font-size: 2em;
+}
+
+.separado {
+    display: flex;
+}
+
+.links1 {
+    list-style: none;
+    padding-left: 40px;
+    font-size: 1em;
+}
+
+.background {
+    background-image: url(imagens/pexels-tracehudson-2529973.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: auto;
+    height: 85vh;
+    background-size: 1400px;
+}
