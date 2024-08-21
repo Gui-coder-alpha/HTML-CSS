@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+</head>
+<body>
+    <h1>Maiis formulários</h1>
+    <form action="cadastro.php" method="get">
+        <fieldset>
+            <legend>Sexo</legend>
+            <label for="isxmas"><input type="radio" name="sx" id="isxmas">Masculino</label>
+            <label for="isxfem"><input type="radio" name="sx" id="isxfem">Feminino</label>  <!--O name deve ser iguais, e o id diferentes-->
+        </fieldset>
+    <fieldset>
+        <legend>Marque a caixa</legend>
+        <label for="icach"><input type="checkbox" name="cach" id="icach"> Cachorros <br></label>
+        <label for="igat"><input type="checkbox" name="gat" id="igat"> Gatos <br></label>
+        <label for="ilea"><input type="checkbox" name="lea" id="ilea"> Leão <br></label>
+        <label for="itig"><input type="checkbox" name="tig" id="itig"> Tigre</label>
+    </fieldset>
+    <p>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Resetar"> 
+    </p>
+    </form>
+</body>
+</html>
