@@ -1,0 +1,32 @@
+/*para telas*/
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    background-color: gray;
+}
+
+header > h1 {
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+    background-color: rgb(94, 94, 94);
+    display: flex;
+    justify-content: space-around;
+}
+li {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+article {
+    margin: auto;
+    width: 300px;
+}
