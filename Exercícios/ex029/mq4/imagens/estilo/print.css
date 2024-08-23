@@ -1,0 +1,109 @@
+/*Todos dispositivos
+------------------------------
+pesquisar typical device breakpoints
+---------------------------------
+telas pequenas 600px
+celulares 600px até 768px
+tablet 768px até 992px
+desktop 992px até 1200px
+grandes telas acima de 1200px
+como a tv*/
+
+@media print {
+    * {
+        font-family: 'Courier New', Courier, monospace;
+    }
+    body {
+        back
+    }
+    main {
+        border: 2px solid black;
+    }
+
+    h1 {
+        color: black;
+    }
+    #celular {
+        display: none;
+    }
+    #tablets {
+        display: none;
+    }
+    #impressora {
+        display: block;
+    }
+    #pc {
+        display: none;
+    }
+    
+    #televisao {
+        display: none;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width: 992px) {
+    body {
+        background-image: url(../back-tablet.jpg);
+    }
+    #celular {
+        display: none;
+    }
+    #tablets {
+        display: block;
+    }
+    #impressora {
+        display: none;
+    }
+    #pc {
+        display: none;
+    }
+    
+    #televisao {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+    body {
+        background-image: url(../back-pc.jpg);
+    }
+    #celular {
+        display: none;
+    }
+    #tablets {
+        display: none;
+    }
+    #impressora {
+        display: none;
+    }
+    #pc {
+        display: block;
+    }
+    
+    #televisao {
+        display: none;
+    }
+}
+
+@media screen and (min-width:1200px) {
+    body {
+        background-image: url(../back-tv.jpg);
+    }
+    #celular {
+        display: none;
+    }
+    #tablets {
+        display: none;
+    }
+    #impressora {
+        display: none;
+    }
+    #pc {
+        display: none;
+    }
+    
+    #televisao {
+        display: block;
+    }
+}
+
