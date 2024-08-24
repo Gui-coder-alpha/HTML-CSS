@@ -13,11 +13,9 @@ como a tv*/
     * {
         font-family: 'Courier New', Courier, monospace;
     }
-    body {
-        back
-    }
+    
     main {
-        border: 2px solid black;
+        border: 2px solid black
     }
 
     h1 {
