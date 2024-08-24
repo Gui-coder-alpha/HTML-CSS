@@ -6,19 +6,33 @@
     <title>Login</title>
     <link rel="stylesheet" href="stylestyle.css">
     <link rel="stylesheet" href="mediaquery.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 </head>
 <body>
     <main>
         <section id="login">
             <div id="imagem">
-
             </div>
             <div id="formulário">
                 <h1>Login</h1>
                 <p>Seja bem vindo(a) ao site. Faça o login e acesse a sua conta.</p>
                 <form action="login" method="post">
-
-
+                    <div class="campo">
+                        <span class="material-symbols-outlined">
+                            login
+                            </span>
+                        <input type="email" name="login" id="ilogin" placeholder="E-mail" autocomplete="email">
+                        <label for="ilogin">Login</label>
+                    </div>
+                    <div class="campo">
+                        <span class="material-symbols-outlined">
+                            password
+                            </span>
+                        <input type="password" name="senha" id="isenha" placeholder="Senha" autocomplete="current-password" maxlength="12">
+                        <label for="isenha">Senha</label>
+                    </div>
+                    <input type="button" value="Entrar">
                 </form>
             </div>
         </section>
